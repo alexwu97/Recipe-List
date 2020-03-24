@@ -16,7 +16,7 @@ const RecipeListItem = ({ recipe, favorited, onClick, onFavorited }) => (
       role="img"
       aria-label="favorite"
     >
-      {favorited ? '☑' : '⬜'}
+      {favorited ? '☑' : '◻'}
     </span>
 
     <span>{recipe.name}</span>
